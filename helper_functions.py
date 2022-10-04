@@ -141,6 +141,7 @@ def pred_and_plot(model, filename, class_names):
 
 def create_tensorboard_callback(dir_name, experiment_name):
   import datetime
+  import tensorflow as tf
   """
   Creates a TensorBoard callback instance to store log files.
   Stores log files with the filepath:
