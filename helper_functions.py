@@ -189,6 +189,7 @@ def plot_loss_curves(history):
   plt.legend();
 
 def compare_historys(original_history, new_history, initial_epochs=5):
+    import matplotlib.pyplot as plt
     """
     Compares two TensorFlow model History objects.
     
